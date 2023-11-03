@@ -1,8 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# microCMS and Next.js StarterKit, 早稲田コンピュータ研究会
 
 ## Getting Started
 
-First, run the development server:
+### Node.jsをインストール
+
+本環境ではNode.js(version18以降)を使う。  
+ローカル環境にNode.jsが入っていない場合にはインストールする必要がある。
+
+### セットアップ
+
+パッケージのインストール。
+
+```bash
+npm install
+```
+
+### First, run the development server:
 
 ```bash
 npm run dev
@@ -16,9 +29,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## スターターキットの構成図
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![](./docs/structure.drawio.svg)
 
 ## Learn More
 
