@@ -1,5 +1,18 @@
 # microCMS and Next.js StarterKit, 早稲田コンピュータ研究会
 
+## microCMSのセットアップ
+
+microCMSをこれから始める方はまずアカウント作成から行います。  
+公式ドキュメントの[アカウント登録](https://document.microcms.io/manual/signup)から手順に沿ってアカウント登録してください。  
+次に、サービスの作成とサービスの設定を行ってください。  
+すべてできたら、サービスドメインとAPIキーをコピーし、.envファイルに張り付けてください。
+
+```config
+MICROCMS_API_KEY=APIキー
+MICROCMS_SERVICE_DOMAIN=サービスドメイン
+BASE_URL=http://localhost:3000
+```
+
 ## Getting Started
 
 ### Node.jsをインストール
@@ -29,7 +42,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## スターターキットの構成図
+## スターターキットの全体
 
 ![](./docs/structure.drawio.svg)
 
