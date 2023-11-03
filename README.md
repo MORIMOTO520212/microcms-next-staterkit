@@ -46,6 +46,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ![](./docs/structure.drawio.svg)
 
+## webhookを通す
+
+https://kimulaco.com/post/microcms-webhook-to-github-actions/
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
